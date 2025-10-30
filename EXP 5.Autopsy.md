@@ -50,6 +50,7 @@ Autopsy is an open-source digital forensics platform used for analyzing and extr
 
 
 
+
   ### 5. Detailed Analysis
   - Keyword Search:
     - You can perform specific keyword searches using the Keyword Search module.

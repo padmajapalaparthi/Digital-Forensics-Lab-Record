@@ -1,9 +1,8 @@
 # Ex.No.7: Use AFLogical OSE to Extract Data from an Android Device
 
-**Description**
+## Aim
 
-**AFLogical OSE (Open Source Edition)** is a forensic tool used to perform **logical extraction** of data from Android devices — retrieving information like contacts, call logs, and SMS messages **without direct access to the full file system**.  
-It is part of the **Open Source Android Forensics** toolkit and often used in forensic investigations or academic labs.
+To extract logical data such as contacts, SMS, call logs, and calendar information from an Android device using **AFLogical OSE**, and to retrieve the extracted files through **ADB** for forensic analysis while maintaining data integrity.
 
 ---
 
@@ -231,13 +230,6 @@ To maintain forensic integrity, calculate file hashes.
 Get-FileHash "C:\Users\palap\Downloads\ForensicLab\output\20251026.1721\Contacts Phones.csv" -Algorithm SHA256
 ```
 
-**Linux/macOS:**
-```bash
-sha256sum ~/ForensicLab/output/contacts.csv
-```
-<img width="1881" height="774" alt="exp7 6" src="https://github.com/user-attachments/assets/9d21a47c-d100-4e01-8826-271c7f2f91eb" />
-
-
 Record the hash in your report.
 
 ---
@@ -251,25 +243,10 @@ Record the hash in your report.
 adb uninstall com.viaforensics.android.aflogical
 ```
 
- **Safely disconnect your device.**
 
----
+## Rubrics
+<table style="width:50%; border-collapse:collapse;" border="1"> <tr> <th>Criteria</th> <th>Mark Allotted</th> <th>Mark Awarded</th> </tr> <tr> <td>1. GitHub Activity & Submission Regularity</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>2. Application of Forensic Tools & Practical Execution</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>3. Documentation & Reporting</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td>4. Engagement, Problem-Solving & Team Collaboration</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td><b>Total</b></td> <td style="text-align:center;"><b>10</b></td> <td style="text-align:center;"></td> </tr> </table>
 
-##  Summary of Useful ADB Commands
+## Result
+Successfully extracted contacts, SMS, and call logs from the Android device using AFLogical OSE and verified the data, demonstrating effective logical mobile data acquisition.
 
-| Purpose | Command |
-|----------|----------|
-| Check ADB version | `adb version` |
-| List connected devices | `adb devices` |
-| Install APK | `adb install <path_to_apk>` |
-| List phone storage | `adb shell ls /sdcard/` |
-| Check AFLogical folder | `adb shell ls /sdcard/aflogical` |
-| Pull data to PC | `adb pull /sdcard/aflogical C:\ForensicLab\output` |
-| Uninstall AFLogical | `adb uninstall com.viaforensics.android.aflogical` |
-
----
-
-
-✨ **End of Experiment**
-
-You have successfully performed **logical extraction** from an Android device using **AFLogical OSE** and documented the forensic process completely.

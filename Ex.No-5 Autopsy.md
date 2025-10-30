@@ -1,6 +1,6 @@
 # Ex.No 5 Use Autopsy to create a case and import evidence
-## Description
-Autopsy is an open-source digital forensics platform used for analyzing and extracting data from digital devices. Here's a step-by-step process on how to use Autopsy for a basic forensic investigation:
+## Aim
+To create a digital forensic case in Autopsy, import evidence, and analyze file system artifacts, user activity, and system events to understand the process of forensic investigation and evidence reporting.
 
 ### 1. Installation
 - Download and Install: Autopsy can be downloaded from the official website. Follow the installation instructions based on your operating system (Windows, Linux, or macOS).
@@ -45,8 +45,7 @@ Autopsy is an open-source digital forensics platform used for analyzing and extr
 <br>
 <br>
 
-<br>
-
+<br> <br>
 
 
 
@@ -81,42 +80,16 @@ Autopsy is an open-source digital forensics platform used for analyzing and extr
  <img width="954" height="502" alt="IMG 5(7)" src="https://github.com/user-attachments/assets/52c14349-9166-4f7a-9f36-dbaa0f08dbe1" />
 </p>
 
--  **Report**
+### Report
 
-<br>
-<img width="950" height="506" alt="IMG 5(8)" src="https://github.com/user-attachments/assets/0e3dea98-e222-44f0-a81e-577f6210de63" />
-<br>
+<img width="600" alt="IMG 5(8)" src="https://github.com/user-attachments/assets/0e3dea98-e222-44f0-a81e-577f6210de63" />
 
 ### 7. Case Closure
 - Close the Case:
   - Once you have completed your investigation, close the case within Autopsy.
 - Archiving:
   - Ensure all data and reports are properly archived according to your organization's policies.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   ## Rubrics
+## Rubrics
 <table style="width:50%; border-collapse:collapse;" border="1">
 <tr>
 <th>Criteria</th>

@@ -8,7 +8,7 @@ To use **TestDisk** step by step to recover a missing partition and repair a cor
  - When TestDisk starts, it creates a log file.  
  - All connected hard drives are detected and listed with their correct size.  
  - Use the arrow keys to select the drive with the lost partition.  
-<img width="600" alt="IMG 2(1)" src="https://github.com/user-attachments/assets/f2dabce3-708f-42d0-a27a-cd6a8b8f0aa5" /> 
+<img width="500" alt="IMG 2(1)" src="https://github.com/user-attachments/assets/f2dabce3-708f-42d0-a27a-cd6a8b8f0aa5" /> 
 
 ### 2. Partition Table Type Selection  
 TestDisk auto-detects the **partition table type**.  

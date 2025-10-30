@@ -1,90 +1,17 @@
 #  Ex.No.8 — Detect Hidden Data in Images Using StegExpose
-
 ---
-
 ##  Aim
 
 To detect hidden data in image files using **StegExpose**, a steganography analysis tool.
 
 ---
-
-##  Description
-
-**StegExpose** is a Java-based forensic tool that identifies potential hidden data in images. It analyzes the **statistical properties** of image files to estimate a “suspect score,” helping investigators determine whether steganography is likely present.
-
-The higher the suspect score, the more probable it is that hidden data exists.
-
----
-
-##  Prerequisites
-
-Before starting, ensure the following software and files are prepared:
-
-### Software Requirements
-
-1. **Java Development Kit (JDK 8 or higher)**
-   StegExpose is Java-based, so `java` and `javac` must be installed.
-
-   **Windows:**
-
-   ```bash
-   choco install openjdk
-   ```
-
-   **Ubuntu/Linux:**
-
-   ```bash
-   sudo apt update
-   sudo apt install default-jdk
-   ```
-
-   **macOS:**
-
-   ```bash
-   brew install openjdk
-   ```
-
-    Verify installation:
-
-   ```bash
-   java -version
-   javac -version
-   ```
-
-2. **Apache Commons Math Library**
-
-   * Required dependency: `commons-math3-3.1.1.jar`
-   *  Download from: `https://archive.apache.org/dist/commons/math/binaries/commons-math3-3.1.1-bin.zip`
-
-3. **StegExpose Source Code**
-
-   *  Clone or download from GitHub: `https://github.com/b3dk7/StegExpose`
-
-   ```bash
-   git clone https://github.com/b3dk7/StegExpose.git
-   ```
-
-###  Environment Setup
-
-Place all files in a single working directory (e.g., `C:\StegExpose\`) and navigate there using Command Prompt (Windows) or Terminal (Linux/macOS):
-
-```bash
-cd C:\StegExpose-master
-```
-
----
-
 ##  Step 1 — Compile the Source Code
 
 Compile the Java files with the required dependency:
 
-```bash
 javac -cp commons-math3-3.1.1.jar -source 1.8 -target 1.8 *.java
-```
 
-<img width="1208" height="872" alt="exp8 1" src="https://github.com/user-attachments/assets/0a35f66b-fd82-4cca-9ef3-88eee8c54139" />
-
-
+<img width="400" alt="exp8 1" src="https://github.com/user-attachments/assets/0a35f66b-fd82-4cca-9ef3-88eee8c54139" />
 
  Note: Ignore warnings like `RSAnalysis.java uses unchecked or unsafe operations`. Compilation is successful if `.class` files are generated.
 
@@ -98,8 +25,6 @@ Create a file named `manifest.mf` in the same folder:
 Main-Class: StegExpose
 ```
 <img width="1712" height="162" alt="exp8 4" src="https://github.com/user-attachments/assets/ede74e26-efa2-4727-8124-21acfb21d570" />
-
-
 
 Build the JAR:
 
@@ -162,9 +87,12 @@ java -jar StegExpose.jar "C:\Users\palap\Downloads\StegExpose-master\StegExpose-
 
 ---
 <img width="581" height="104" alt="exp8 5" src="https://github.com/user-attachments/assets/27adfc08-776c-4692-92aa-61bba7a5f662" />
+<br> <br>
 
+## Rubrics
+<table style="width:50%; border-collapse:collapse;" border="1"> <tr> <th>Criteria</th> <th>Mark Allotted</th> <th>Mark Awarded</th> </tr> <tr> <td>1. GitHub Activity & Submission Regularity</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>2. Application of Forensic Tools & Practical Execution</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>3. Documentation & Reporting</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td>4. Engagement, Problem-Solving & Team Collaboration</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td><b>Total</b></td> <td style="text-align:center;"><b>10</b></td> <td style="text-align:center;"></td> </tr> </table>
 
-## 🏁 Result
+##  Result
 
 * Successfully compiled and executed StegExpose
 * Detected images containing potential hidden data

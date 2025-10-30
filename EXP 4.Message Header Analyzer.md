@@ -38,7 +38,9 @@ Click the "Analyze" button to get a parsed, easy-to-read report.
 - Conclusion: Since the email came from a Mailgun server, which is authorized in the SPF record, the SPF check passed.
 
 <img width="947" height="514" alt="image" src="https://github.com/user-attachments/assets/23ff84e9-e21e-4910-bf46-e172d00c572d" />
+
 <br>
+
 ### Analyze the DKIM Failure
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/47029e6f-dda0-4473-b547-1e2be4c18d60" />
 

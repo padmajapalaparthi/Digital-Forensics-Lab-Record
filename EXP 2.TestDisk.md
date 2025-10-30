@@ -1,12 +1,13 @@
-#  Ex.NO-2: Recover Deleted or Damaged Files from a Storage Device using TestDisk
+##  Ex.NO-2: Recover Deleted or Damaged Files from a Storage Device using TestDisk
 
 ##  Aim  
 To use **TestDisk** step by step to recover a missing partition and repair a corrupted one.  
 ## Procedure:
-### 1. Log Creation & Disk Detection  
-When TestDisk starts, it creates a log file.  
-All connected hard drives are detected and listed with their correct size.  
- Use the arrow keys to select the drive with the lost partition.  
+ ### 1. Log Creation & Disk Detection
+
+ - When TestDisk starts, it creates a log file.  
+ - All connected hard drives are detected and listed with their correct size.  
+ - Use the arrow keys to select the drive with the lost partition.  
 <img width="600" alt="IMG 2(1)" src="https://github.com/user-attachments/assets/f2dabce3-708f-42d0-a27a-cd6a8b8f0aa5" /> 
 
 ### 2. Partition Table Type Selection  
@@ -18,11 +19,7 @@ TestDisk auto-detects the **partition table type**.
 ### 3. Analyse Current Partition Structure  
 Choose **Analyse** → TestDisk displays the current partition structure.  
 - The first partition is listed twice → indicates corruption.  
-- “Invalid NTFS boot” → faulty NTFS boot sector.  
-- One logical partition is missing.  
-
-Press **Quick Search** to continue.  
-
+- “Invalid NTFS boot” → faulty NTFS boot sector.    
 <img width="600" alt="IMG 2(3)" src="https://github.com/user-attachments/assets/62b6c670-6d23-48c7-9b4c-9329d1cd7469" />  
 
 ### 4. Quick Search for Partitions  
@@ -33,25 +30,14 @@ Quick Search begins and TestDisk lists results in real-time.
 
 <img width="600" alt="IMG 2(4)" src="https://github.com/user-attachments/assets/c323dc9a-58c9-46e0-aced-fe78b22431a9" />
 
- 
-
-
-<br>
-
-
-
 ### 5. Deeper Search (If Needed)  
 If a partition is still missing → run **Deeper Search**.  
 - TestDisk scans cylinder by cylinder.  
-- It can detect FAT32, NTFS, ext2/ext3 backup boot sectors.  
-- Some partitions may appear as **D (Deleted)** and overlap.  
-- Use **p** to preview files in each partition to decide which is correct.  
+- It can detect FAT32, NTFS, ext2/ext3 backup boot sectors.
 
-<img width="600" alt="IMG 2(5)" src="https://github.com/user-attachments/assets/2ab79dd1-38f2-4f7f-8ffa-c55eaa40d247" /> 
+ <img width="500" alt="IMG 2(5)" src="https://github.com/user-attachments/assets/2ab79dd1-38f2-4f7f-8ffa-c55eaa40d247" /> 
 
  If files are visible → mark the correct partition as **L (Logical)** or **P (Primary)**.  
-
- 
 
 ### 6. Partition Table Recovery  
 Once the correct partitions are identified:  
@@ -69,8 +55,6 @@ If the NTFS boot sector is damaged but the backup is valid:
 - Now both boot sector and backup are identical → filesystem recovered.  
 
 <img width="600" alt="IMG 2(7)" src="https://github.com/user-attachments/assets/15539082-52e9-4052-aa62-dd0f7202a502" />
-
- Finally, TestDisk prompts: **“Restart your Computer to access your data.”**  
 
  
 ## Rubrics

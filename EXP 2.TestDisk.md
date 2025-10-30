@@ -54,6 +54,8 @@ Quick Search begins and TestDisk lists results in real-time.
 
 
 
+
+
 ### 5. Deeper Search (If Needed)  
 If a partition is still missing → run **Deeper Search**.  
 - TestDisk scans cylinder by cylinder.  

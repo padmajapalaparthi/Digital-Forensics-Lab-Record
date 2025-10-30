@@ -1,12 +1,7 @@
 #  **Experiment No. 06 — Digital Forensic Analysis using Sleuth Kit (TSK)**
 
-##  **Overview**
-
-The **Sleuth Kit (TSK)**  is a versatile suite of command-line tools used in **digital forensics**.  
-It enables investigators to analyze disk images , uncover deleted files , and extract critical digital evidence from storage devices.  
-This document walks through the complete process of using Sleuth Kit on a **Windows** system to perform forensic analysis.
-
----
+## Aim
+To perform digital forensic analysis using The Sleuth Kit (TSK) by examining a disk image, recovering deleted files, analyzing file system metadata, and extracting evidence to understand command-line based forensic investigation techniques.
 
 ##  **Step 1: Installing Sleuth Kit**
 
@@ -55,9 +50,7 @@ Now let’s dive into Sleuth Kit tools to inspect the file system.
 cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ```
   
-<img width="1244" height="833" alt="exp6 1" src="https://github.com/user-attachments/assets/ab629da5-77d5-478b-9a95-4edb64f6050f" />
-
-
+<img width="400" alt="exp6 1" src="https://github.com/user-attachments/assets/ab629da5-77d5-478b-9a95-4edb64f6050f" />
 
 ---
 
@@ -66,10 +59,7 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ```bash
 .\fsstat.exe -o 63 "C:\Users\palap\Downloads\4Dell Latitude CPi.E01" 
 ```
- 
-<img width="1681" height="113" alt="exp6 2" src="https://github.com/user-attachments/assets/e29e39f6-c5e9-405d-938a-b8bfab58ba6e" />
-
-
+<img width="600" alt="exp6 2" src="https://github.com/user-attachments/assets/e29e39f6-c5e9-405d-938a-b8bfab58ba6e" />
 
  *Displays key details about the file system type and structure.*
 
@@ -151,6 +141,8 @@ Ensuring the integrity of evidence is the final and most important step .
    Keep the evidence in a secure location following proper forensic protocols .
 
 ---
+## Rubrics 
+<table style="width:50%; border-collapse:collapse;" border="1"> <tr> <th>Criteria</th> <th>Mark Allotted</th> <th>Mark Awarded</th> </tr> <tr> <td>1. GitHub Activity & Submission Regularity</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>2. Application of Forensic Tools & Practical Execution</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>3. Documentation & Reporting</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td>4. Engagement, Problem-Solving & Team Collaboration</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td><b>Total</b></td> <td style="text-align:center;"><b>10</b></td> <td style="text-align:center;"></td> </tr> </table>
 
 ## **Result**
 

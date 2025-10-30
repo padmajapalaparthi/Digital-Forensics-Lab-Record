@@ -165,15 +165,45 @@ A window will appear asking you to choose the source type:
 - A final window shows **MD5** and **SHA1** hashes for both the source drive and image.  
 - Matching hashes confirm the forensic image’s integrity.
 
----
-## Notes
+## Rubrics
+<div style="display:flex; justify-content:center;">
+<table style="width:50%; border-collapse:collapse; text-align:center;" border="1">
+<tr>
+<th>Criteria</th>
+<th>Mark Allotted</th>
+<th>Mark Awarded</th>
+</tr>
+<tr>
+<td>1. GitHub Activity & Submission Regularity</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>2. Application of Forensic Tools & Practical Execution</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr>
+<td>3. Documentation & Reporting</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td>4. Engagement, Problem-Solving & Team Collaboration</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr>
+<td><b>Total</b></td>
+<td><b>10</b></td>
+<td></td>
+</tr>
+</table>
+</div>
 
-- Always use a **write-blocker** to prevent modifications to the evidence.  
-- **Hash verification** is critical to maintain a chain of custody and admissibility in court.  
-- **Image Fragmentation** is useful for large drives or storage limitations.
----
 
-## References
 
-- [FTK Imager Official Website](https://accessdata.com/product-download/ftk-imager-version-4-5)  
-- FTK Imager Documentation
+## Result
+
+Successfully captured RAM and disk images using FTK Imager, verified integrity with matching MD5 & SHA1 hashes.  
+The acquired forensic images are ready for analysis using tools like Autopsy, FTK Toolkit, or Volatility.

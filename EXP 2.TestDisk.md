@@ -1,9 +1,8 @@
-#  Digital Forensics Lab – Experiment 2  
-**Recover Deleted or Damaged Files from a Storage Device using TestDisk**  
+#  Ex.NO-2: Recover Deleted or Damaged Files from a Storage Device using TestDisk
 
 ##  Aim  
 To use **TestDisk** step by step to recover a missing partition and repair a corrupted one.  
-
+## Procedure:
 ### 1. Log Creation & Disk Detection  
 When TestDisk starts, it creates a log file.  
 All connected hard drives are detected and listed with their correct size.  

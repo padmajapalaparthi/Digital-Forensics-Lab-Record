@@ -1,6 +1,7 @@
 # Ex.No 5 Use Autopsy to create a case and import evidence
 ## Aim
 To create a digital forensic case in Autopsy, import evidence, and analyze file system artifacts, user activity, and system events to understand the process of forensic investigation and evidence reporting.
+## Procedure:
 
 ### 1. Installation
 - Download and Install: Autopsy can be downloaded from the official website. Follow the installation instructions based on your operating system (Windows, Linux, or macOS).

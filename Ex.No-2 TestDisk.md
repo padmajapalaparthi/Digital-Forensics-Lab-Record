@@ -4,7 +4,7 @@
 To use **TestDisk** step by step to recover a missing partition and repair a corrupted one.  
 ## Procedure:
  ### 1. Log Creation & Disk Detection
-
+ 
  - When TestDisk starts, it creates a log file.  
  - All connected hard drives are detected and listed with their correct size.  
  - Use the arrow keys to select the drive with the lost partition.  

@@ -2,6 +2,7 @@
 
 ## Aim
 To perform digital forensic analysis using The Sleuth Kit (TSK) by examining a disk image, recovering deleted files, analyzing file system metadata, and extracting evidence to understand command-line based forensic investigation techniques.
+## Procedure:
 
 ##  **Step 1: Installing Sleuth Kit**
 

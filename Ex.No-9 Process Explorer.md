@@ -45,21 +45,58 @@
 <img width="1903" height="1044" alt="Screenshot 2025-10-28 111045" src="https://github.com/user-attachments/assets/d1e7e1d2-778b-4e89-82d1-12aa972abae1" />
 
 
-<h2>Observation</h2>
-<p>All system and user processes were successfully displayed with their respective CPU and memory usage. Unsigned or abnormal processes were identified by verifying signatures and observing their file paths.</p>
-
-<h2>Result</h2>
-<p>Process Explorer successfully helped in identifying and analyzing suspicious processes in the system.</p>
-
-<h2>Conclusion</h2>
-<p>Process Explorer is an effective forensic tool that allows investigators to detect, verify, and terminate suspicious processes, thereby improving system security and malware detection.</p>
-
-</body>
-</html>
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Rubrics
+<table style="width:50%; border-collapse:collapse;" border="1">
+<tr>
+<th>Criteria</th>
+<th>Mark Allotted</th>
+<th>Mark Awarded</th>
+</tr>
+<tr>
+<td>1. GitHub Activity & Submission Regularity</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>2. Application of Forensic Tools & Practical Execution</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>3. Documentation & Reporting</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>4. Engagement, Problem-Solving & Team Collaboration</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td><b>Total</b></td>
+<td style="text-align:center;"><b>10</b></td>
+<td style="text-align:center;"></td>
+</tr>
+</table>
+
+##  Result
+ **Hence, the analysis of suspicious processes using Process Explorer was performed successfully.**
 
  
   

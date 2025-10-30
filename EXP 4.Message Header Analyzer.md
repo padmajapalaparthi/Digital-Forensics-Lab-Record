@@ -5,7 +5,7 @@
 ### Step 1: Get the Email Header
 - First, you need to copy the full, raw header from the email.
 - Gmail: Open the email, click the three dots (⋮), and select Show original.
-<img width="958" height="562" alt="IMG 4(1)" src="https://github.com/user-attachments/assets/0fb53133-c020-46a2-8f49-9335e899fdf6" />
+<img width="400" alt="IMG 4(1)" src="https://github.com/user-attachments/assets/0fb53133-c020-46a2-8f49-9335e899fdf6" />
 
 - Select all the text in the header and copy it.
 <img width="952" height="565" alt="image" src="https://github.com/user-attachments/assets/ad8ceb60-d6c3-4e67-910c-e69be79edff7" />

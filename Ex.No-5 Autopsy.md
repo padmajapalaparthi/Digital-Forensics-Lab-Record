@@ -84,7 +84,7 @@ To create a digital forensic case in Autopsy, import evidence, and analyze file 
 
 <img width="400" alt="IMG 5(8)" src="https://github.com/user-attachments/assets/0e3dea98-e222-44f0-a81e-577f6210de63" />
 
-<br>
+<br> <br>
 
 ### 7. Case Closure
 - Close the Case:

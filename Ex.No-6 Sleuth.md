@@ -110,13 +110,7 @@ To uncover file history and access details, view the file’s metadata.
 .\istat.exe -o 63 "C:\Users\palap\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\knsha\Downloads\BOOTLOG_recovered.TXT" 
 ```
  
-<img width="1079" height="754" alt="exp6 5" src="https://github.com/user-attachments/assets/7a5b9f31-59a1-4d8f-a1c8-41af9428256e" />
-
-
-
- *Displays file attributes such as MAC times (Modified, Accessed, Changed), size, and allocation info.*
-
----
+<img width="600" alt="exp6 5" src="https://github.com/user-attachments/assets/7a5b9f31-59a1-4d8f-a1c8-41af9428256e" />
 
 
 ## **Step 6: Report Generation**
@@ -142,6 +136,8 @@ Ensuring the integrity of evidence is the final and most important step .
    Keep the evidence in a secure location following proper forensic protocols .
 
 ---
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
 ## Rubrics 
 <table style="width:50%; border-collapse:collapse;" border="1"> <tr> <th>Criteria</th> <th>Mark Allotted</th> <th>Mark Awarded</th> </tr> <tr> <td>1. GitHub Activity & Submission Regularity</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>2. Application of Forensic Tools & Practical Execution</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>3. Documentation & Reporting</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td>4. Engagement, Problem-Solving & Team Collaboration</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td><b>Total</b></td> <td style="text-align:center;"><b>10</b></td> <td style="text-align:center;"></td> </tr> </table>
 

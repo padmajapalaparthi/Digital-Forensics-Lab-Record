@@ -165,6 +165,9 @@ A window will appear asking you to choose the source type:
 - A final window shows **MD5** and **SHA1** hashes for both the source drive and image.  
 - Matching hashes confirm the forensic image’s integrity.
 
+<br>
+
+
 ## Rubrics
 <div style="display:flex; justify-content:center;">
 <table style="width:50%; border-collapse:collapse; text-align:center;" border="1">

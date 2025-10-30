@@ -81,12 +81,9 @@ Generate a results file for easier review:
 java -jar StegExpose.jar "C:\Users\palap\Downloads\StegExpose-master\StegExpose-master\testFolder" fast 0.3 results.csv
 
 ```
-<img width="1712" height="162" alt="exp8 4" src="https://github.com/user-attachments/assets/0c75cac4-c396-4ff7-a16b-0a7bc0df88bb" />
+<img width="600" alt="exp8 4" src="https://github.com/user-attachments/assets/0c75cac4-c396-4ff7-a16b-0a7bc0df88bb" />
 
-
-
----
-<img width="581" height="104" alt="exp8 5" src="https://github.com/user-attachments/assets/27adfc08-776c-4692-92aa-61bba7a5f662" />
+<img width="600"  alt="exp8 5" src="https://github.com/user-attachments/assets/27adfc08-776c-4692-92aa-61bba7a5f662" />
 <br> <br>
 
 ## Rubrics

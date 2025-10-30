@@ -6,17 +6,11 @@
 <h2>Aim</h2>
 <p>To use Process Explorer to identify and analyze suspicious processes running on a Windows system.</p>
 
-<h2>Objective</h2>
-<ul>
-  <li>Monitor running processes and their resource usage.</li>
-  <li>Verify digital signatures of executables.</li>
-  <li>Detect hidden or unauthorized processes.</li>
-</ul>
 <h2>Procedure </h2>
 
 <h3>Step1: Launch Process Explorer</h3>
 <p>Open <code>procexp.exe</code>. The Process Explorer window displays a hierarchical view of all running processes, showing their CPU usage, memory usage, and parent–child relationships.</p>
-<img width="1915" height="1125" alt="Screenshot 2025-10-28 110503" src="https://github.com/user-attachments/assets/0aa6a2d6-58e1-4eb5-b014-7afd567baa8f" />
+<img width="400"  alt="Screenshot 2025-10-28 110503" src="https://github.com/user-attachments/assets/0aa6a2d6-58e1-4eb5-b014-7afd567baa8f" />
 
 
 <h3>Step 2: Viewing Process Details</h3>

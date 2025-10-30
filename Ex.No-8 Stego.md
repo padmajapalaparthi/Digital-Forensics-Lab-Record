@@ -1,10 +1,8 @@
 #  Ex.No.8 — Detect Hidden Data in Images Using StegExpose
----
 ##  Aim
-
 To detect hidden data in image files using **StegExpose**, a steganography analysis tool.
 
----
+## Procedure:
 ##  Step 1 — Compile the Source Code
 
 Compile the Java files with the required dependency:
@@ -84,7 +82,8 @@ java -jar StegExpose.jar "C:\Users\palap\Downloads\StegExpose-master\StegExpose-
 <img width="600" alt="exp8 4" src="https://github.com/user-attachments/assets/0c75cac4-c396-4ff7-a16b-0a7bc0df88bb" />
 
 <img width="600"  alt="exp8 5" src="https://github.com/user-attachments/assets/27adfc08-776c-4692-92aa-61bba7a5f662" />
-<br> <br>
+
+<br> <br> <br> <br>
 
 ## Rubrics
 <table style="width:50%; border-collapse:collapse;" border="1"> <tr> <th>Criteria</th> <th>Mark Allotted</th> <th>Mark Awarded</th> </tr> <tr> <td>1. GitHub Activity & Submission Regularity</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>2. Application of Forensic Tools & Practical Execution</td> <td style="text-align:center;">3</td> <td style="text-align:center;"></td> </tr> <tr> <td>3. Documentation & Reporting</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td>4. Engagement, Problem-Solving & Team Collaboration</td> <td style="text-align:center;">2</td> <td style="text-align:center;"></td> </tr> <tr> <td><b>Total</b></td> <td style="text-align:center;"><b>10</b></td> <td style="text-align:center;"></td> </tr> </table>

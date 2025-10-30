@@ -5,6 +5,7 @@
 To extract logical data such as contacts, SMS, call logs, and calendar information from an Android device using **AFLogical OSE**, and to retrieve the extracted files through **ADB** for forensic analysis while maintaining data integrity.
 
 ---
+## Procedure:
 
 ## STEP 1 — Extract All ZIP Files
 

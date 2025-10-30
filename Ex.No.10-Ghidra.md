@@ -13,8 +13,7 @@ To perform static analysis of a suspicious binary file using **Ghidra**, underst
 - Install and configure **Ghidra**, ensuring JDK is properly linked.  
 - Prepare the binary sample to be analyzed.  
 
-<img width="600" alt="exp10 1" src="https://github.com/user-attachments/assets/7ce1a376-46a0-4560-8f59-b8e487d858ee" />
-
+<img width="288"  alt="image" src="https://github.com/user-attachments/assets/7cedce25-c850-4a1c-bdc6-ffd1c603888b" />
 
 ---
 
@@ -33,9 +32,6 @@ To perform static analysis of a suspicious binary file using **Ghidra**, underst
 - Use **Cross-References (XREF)** to track function calls and variable usage.
 
 <img width="600" alt="exp10 4" src="https://github.com/user-attachments/assets/6050677c-dee1-41db-8b26-66a5fe67dd8e" />
-
-
----
 
 ### Step 4 — String and Import Analysis
 - Explore the **Defined Strings** section to locate readable strings (e.g., IPs, file paths, registry entries).  
@@ -71,21 +67,42 @@ A collection of harmless binaries used for demonstration:
 <img width="600" alt="exp10 7" src="https://github.com/user-attachments/assets/02f82d65-a57f-4de6-8f8e-6fa9029cf3a2" />
 
 <img width="600"  alt="exp10 8" src="https://github.com/user-attachments/assets/66fbee67-9e4f-4f19-a18a-13803d499b9b" />
-
-
 <img width="600" alt="exp10 9" src="https://github.com/user-attachments/assets/239d4407-8d3c-4aca-8c31-d6eddd3366f0" />
 
 ---
-
-## Report Format
-Use this structure to document your findings:
-
-1. **Overview:** Description of the sample and purpose of analysis.  
-2. **Disassembly Observations:** List of key functions and their interpreted purpose.  
-3. **Indicators of Compromise (IOCs):** Suspicious strings, network activity, or persistence behavior.  
-4. **Conclusion & Recommendations:** Mitigation steps or further analysis suggestions.
-
----
+## Rubrics
+<table style="width:50%; border-collapse:collapse;" border="1">
+<tr>
+<th>Criteria</th>
+<th>Mark Allotted</th>
+<th>Mark Awarded</th>
+</tr>
+<tr>
+<td>1. GitHub Activity & Submission Regularity</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>2. Application of Forensic Tools & Practical Execution</td>
+<td style="text-align:center;">3</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>3. Documentation & Reporting</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td>4. Engagement, Problem-Solving & Team Collaboration</td>
+<td style="text-align:center;">2</td>
+<td style="text-align:center;"></td>
+</tr>
+<tr>
+<td><b>Total</b></td>
+<td style="text-align:center;"><b>10</b></td>
+<td style="text-align:center;"></td>
+</tr>
+</table>
 
 ## Result
 The analysis was successfully completed using **Ghidra**.  

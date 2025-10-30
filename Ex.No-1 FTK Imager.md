@@ -1,4 +1,7 @@
 # Ex.No.1    FTK Imager: A Forensic Imaging Tool Overview
+## Aim
+To acquire volatile memory (RAM) and non-volatile disk images using **FTK Imager** and verify the integrity of the forensic images for further digital investigation.
+
 ## Procedure:
 ## Acquiring Volatile Memory (RAM) Using FTK Imager
 

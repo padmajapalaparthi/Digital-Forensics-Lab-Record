@@ -1,11 +1,8 @@
 # Ex.No.1    FTK Imager: A Forensic Imaging Tool Overview
-
+## Procedure:
 ## Acquiring Volatile Memory (RAM) Using FTK Imager
-<br>
-
 
 ### Steps to Capture RAM Using FTK Imager
-<br>
 
 ### 1. Run as Administrator
 - Open **FTK Imager** with administrative privileges.  
